@@ -55,7 +55,7 @@ function holdDice() {
         let score = scores[activePlayer];
 
         // check if player won the game
-        if (score >= 20) {
+        if (score >= 100) {
             //won
             document.querySelector("#name--" + activePlayer).textContent =
                 "Winner!";
